@@ -1,13 +1,16 @@
+/*Style sheet*/
 import "./App.css";
-import Header from "./components/Header";
+
+/*Components*/
 import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Hero />
-    </div>
+    <>
+      <div className="gradient-background">
+        <Hero />
+      </div>
+    </>
   );
 }
 

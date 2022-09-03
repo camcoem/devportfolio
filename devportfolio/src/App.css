@@ -1,10 +1,15 @@
-.App-header {
+a {
+  text-decoration: none;
+}
+
+/* Hero + Header Component - seemless Background*/
+.gradient-background {
   /* background-color: #8b8c8f; */
-  min-height: 100vh;
-  display: flex;
+  min-height: 800vh;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: "Gravitas One", cursive;
@@ -33,4 +38,14 @@
   );
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E4A46D", endColorstr="#F1DCA9", GradientType=1 );
+}
+
+/* Header Compoment */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 20px;
+  margin: 40px 40px 70px 0;
+  font-size: 20px;
 }
