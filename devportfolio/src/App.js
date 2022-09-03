@@ -1,7 +1,11 @@
-/*Style sheet*/
+//Stylesheet
 import "./App.css";
 
-/*Components*/
+//Fonts
+import "./fonts/YouDense-Glass-BlowBold.ttf";
+import "./fonts/YouDense-Glass-BlowRegular.ttf";
+
+//Components
 import Hero from "./components/Hero";
 
 function App() {

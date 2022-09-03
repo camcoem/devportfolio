@@ -1,8 +1,22 @@
 a {
   text-decoration: none;
 }
-body {
-  /* padding: 0 50px 0 50px; */
+
+/* body {
+  
+} */
+
+/* Fonts */
+@font-face {
+  font-family: "YouDense-Bold";
+  src: local("YouDense-Glass-BlowBold"),
+    url("./fonts/YouDense-Glass-BlowBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "YouDense-Regular";
+  src: local("YouDense-Glass-BlowRegular"),
+    url("./fonts/YouDense-Glass-BlowRegular.ttf") format("truetype");
 }
 
 /* Hero + Header Component - seemless Background*/
@@ -13,9 +27,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center; */
-  font-size: calc(10px + 2vmin);
+  font-size: 80px;
   color: white;
-  font-family: "Gravitas One", cursive;
+  font-family: "YouDense-Bold";
 
   background: hsla(28, 69%, 66%, 1);
 
