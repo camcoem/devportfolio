@@ -7,7 +7,7 @@ export default function Hero() {
     <Header />
        <h1> Hi, I'm Camila</h1>
        <h2>Front-End Developer</h2>
-       <button>Let's create together</button>
+       <button className='btn-primary'>Let's create together</button>
     </>
   )
 }
