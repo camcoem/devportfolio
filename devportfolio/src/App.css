@@ -59,6 +59,10 @@ a {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E4A46D", endColorstr="#F1DCA9", GradientType=1 );
 }
 
+.titleExperience {
+  font-family: "Bodoni Moda", serif !important;
+}
+
 /* Header Compoment */
 .navbar {
   display: flex;
