@@ -20,49 +20,19 @@ a {
 }
 
 /* Hero + Header Component - seemless Background*/
-.gradient-background {
-  /* background-color: #8b8c8f; */
-  min-height: 200vh;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-  font-family: "Yeseva One", cursive;
-  /* font-family: "Gravitas One", cursive; */
-  font-size: 50px;
-  color: white;
-  /* font-family: "YouDense-Regular"; */
-
-  background: hsla(28, 69%, 66%, 1);
-
-  background: radial-gradient(
-    circle,
-    hsla(28, 69%, 66%, 1) 21%,
-    hsla(43, 72%, 80%, 1) 50%,
-    hsla(191, 80%, 82%, 1) 85%
-  );
-
-  background: -moz-radial-gradient(
-    circle,
-    hsla(28, 69%, 66%, 1) 21%,
-    hsla(43, 72%, 80%, 1) 50%,
-    hsla(191, 80%, 82%, 1) 85%
-  );
-
-  background: -webkit-radial-gradient(
-    circle,
-    hsla(28, 69%, 66%, 1) 21%,
-    hsla(43, 72%, 80%, 1) 50%,
-    hsla(191, 80%, 82%, 1) 85%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E4A46D", endColorstr="#F1DCA9", GradientType=1 );
-}
 
 .titleExperience {
   font-family: "Bodoni Moda", serif !important;
 }
 
+.custom-shape-divider-top-1662718655 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
 /* Header Compoment */
 .navbar {
   display: flex;
