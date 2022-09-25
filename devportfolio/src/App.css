@@ -34,11 +34,13 @@ a:hover {
   background: none;
   opacity: 0.6;
   transition: 0.3s;
+  font-family: "Spline Sans Mono", monospace;
 }
 
 .btn-primary:hover {
   opacity: 1;
   letter-spacing: 7px;
+  font-family: "Spline Sans Mono", monospace;
 }
 
 /* Hero Component*/
@@ -48,6 +50,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   font-size: 40px;
+  font-family: "Spline Sans Mono", monospace;
 }
 
 .gradient-background {
