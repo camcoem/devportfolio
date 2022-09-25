@@ -2,6 +2,10 @@ a {
   text-decoration: none;
   color: #414670;
   font-size: 18px;
+  opacity: 0.75;
+}
+a:hover {
+  opacity: 1;
 }
 
 /* Fonts */
@@ -37,7 +41,7 @@ a {
   letter-spacing: 7px;
 }
 
-/* Hero + Header Component - seemless Background*/
+/* Hero Component*/
 .hero-div {
   display: flex;
   flex-direction: column;
@@ -45,6 +49,7 @@ a {
   align-items: center;
   font-size: 40px;
 }
+
 .gradient-background {
   background: #f3904f; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -54,6 +59,7 @@ a {
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #3b4371, #f3904f);
 }
+
 .titleExperience {
   font-family: "Bodoni Moda", serif !important;
 }
