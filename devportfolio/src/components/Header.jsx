@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
 export default function Header() {
   return (
     <>
       <header className="navbar">
-       <a href="#">About me</a>
-       <a href="#">Projects</a>
-       <a href="#">Contact</a>
+        <a href="#">about me</a>
+        <a href="#">projects</a>
+        <a href="#">contact</a>
       </header>
     </>
-  )
+  );
 }
