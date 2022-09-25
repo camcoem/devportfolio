@@ -1,6 +1,7 @@
 a {
   text-decoration: none;
   color: #414670;
+  font-size: 18px;
 }
 
 /* Fonts */
@@ -23,7 +24,7 @@ a {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 25px;
   border: none;
   color: white;
   background: none;
@@ -41,6 +42,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 40px;
 }
 .gradient-background {
   background: #f3904f; /* fallback for old browsers */
