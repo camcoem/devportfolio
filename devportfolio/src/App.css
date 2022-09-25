@@ -20,18 +20,28 @@ a {
 }
 
 /* Hero + Header Component - seemless Background*/
+
+.gradient-background {
+  background: #f3904f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3b4371,
+    #f3904f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3b4371, #f3904f);
+}
 .titleExperience {
   font-family: "Bodoni Moda", serif !important;
 }
 
-.custom-shape-divider-top-1662718655 {
+/* .custom-shape-divider-top-1662718655 {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-}
+} */
 /* Header Compoment */
 .navbar {
   display: flex;
