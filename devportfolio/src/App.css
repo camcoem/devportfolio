@@ -17,10 +17,16 @@ a {
 
 /* Btns */
 .btn-primary {
+  margin-bottom: 10em;
 }
 
 /* Hero + Header Component - seemless Background*/
-
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .gradient-background {
   background: #f3904f; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -34,14 +40,6 @@ a {
   font-family: "Bodoni Moda", serif !important;
 }
 
-/* .custom-shape-divider-top-1662718655 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-} */
 /* Header Compoment */
 .navbar {
   display: flex;
