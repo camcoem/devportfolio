@@ -12,16 +12,19 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Cursor from "./components/Cursor";
+import ContextProvider from "./components/Hero";
 
 function App() {
   return (
     <div className="gradient-background">
+      {/* <ContextProvider> */}
       <Cursor />
       <Header />
       <Hero />
       <AboutMe />
       <Projects />
       <Contact />
+      {/* </ContextProvider> */}
     </div>
   );
 }
