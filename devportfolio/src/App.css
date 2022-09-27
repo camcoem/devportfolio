@@ -78,3 +78,14 @@ a:hover {
   padding-top: 40px;
   font-size: 20px;
 }
+
+/* Cursor Component  */
+.cursor {
+  background-color: #111;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
