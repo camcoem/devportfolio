@@ -15,16 +15,14 @@ import Cursor from "./components/Cursor";
 
 function App() {
   return (
-    <>
-      <div className="gradient-background">
-        <Cursor />
-        <Header />
-        <Hero />
-        <AboutMe />
-        <Projects />
-        <Contact />
-      </div>
-    </>
+    <div className="gradient-background">
+      <Cursor />
+      <Header />
+      <Hero />
+      <AboutMe />
+      <Projects />
+      <Contact />
+    </div>
   );
 }
 
