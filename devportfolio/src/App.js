@@ -16,7 +16,7 @@ import ContextProvider from "./components/Hero";
 
 function App() {
   return (
-    <div className="gradient-background">
+    <div className="app">
       {/* <ContextProvider> */}
       <Cursor />
       <Header />
