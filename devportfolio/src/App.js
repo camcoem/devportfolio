@@ -21,20 +21,20 @@ function App() {
   return (
     <div className="app">
       <Parallax pages={4}>
-        <ParallaxLayer>
+        <ParallaxLayer speed={1}>
           <Header />
           <Hero />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1}>
+        <ParallaxLayer offset={1} speed={0.8}>
           <AboutMe />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2}>
+        <ParallaxLayer offset={2} speed={0.5}>
           <Projects />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3}>
+        <ParallaxLayer offset={3} speed={2}>
           <Contact />
         </ParallaxLayer>
       </Parallax>
