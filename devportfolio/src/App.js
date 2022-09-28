@@ -14,17 +14,30 @@ import Contact from "./components/Contact";
 import Cursor from "./components/Cursor";
 import ContextProvider from "./components/Hero";
 
+//React Spring for parallax
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+
 function App() {
   return (
     <div className="app">
-      {/* <ContextProvider> */}
-      <Cursor />
-      <Header />
-      <Hero />
-      <AboutMe />
-      <Projects />
-      <Contact />
-      {/* </ContextProvider> */}
+      <Parallax pages={4}>
+        <ParallaxLayer>
+          <Header />
+          <Hero />
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={1}>
+          <AboutMe />
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={2}>
+          <Projects />
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={3}>
+          <Contact />
+        </ParallaxLayer>
+      </Parallax>
     </div>
   );
 }
