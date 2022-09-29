@@ -14,7 +14,7 @@ import Contact from "./components/Contact";
 import Cursor from "./components/Cursor";
 
 // Context
-import Context from "./components/Context";
+import Context from "./context/Context";
 
 //React Spring for animations
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
