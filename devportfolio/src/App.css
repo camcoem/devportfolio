@@ -69,7 +69,7 @@ a:hover {
 
 /* Btns */
 .btn-primary {
-  margin-bottom: 10em;
+  margin: 1em 0 2em 0;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
