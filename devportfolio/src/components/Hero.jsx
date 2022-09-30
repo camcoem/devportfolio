@@ -1,4 +1,5 @@
 import React from "react";
+import { useTransition, animated } from "react-spring";
 
 export default function Hero() {
   return (
