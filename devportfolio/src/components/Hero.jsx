@@ -5,7 +5,8 @@ export default function Hero() {
   return (
     <div className="hero-div">
       <h1 className="hero-titel">
-        Coding web<span className="titleExperience"> experiences</span>
+        Coding web
+        <animated.span className="titleExperience"> experiences</animated.span>
       </h1>
       <button className="btn-primary">Let's create</button>
     </div>
