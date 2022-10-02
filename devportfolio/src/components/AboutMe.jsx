@@ -1,9 +1,21 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 
 export default function AboutMe() {
+  const aboutMeStyle = useSpring({
+    config: { delay: 20000, duration: 3000 },
+    from: { opacity: 0, marginRight: "-500" },
+    to: {
+      opacity: 1,
+      marginRight: "300",
+    },
+  });
+
   return (
     <>
-      <h1 className="aboutMeTitel">about me</h1>
+      <animated.h1 className="aboutMeTitel" style={aboutMeStyle}>
+        about me
+      </animated.h1>
       <div className="aboutMeDiv">
         <div className="leftSide">
           <h3 className="title">
