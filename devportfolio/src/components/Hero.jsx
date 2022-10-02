@@ -5,7 +5,7 @@ export default function Hero() {
   const props = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
-    config: { delay: 5000, duration: 2000 },
+    config: { delay: 10000, duration: 4000 },
   });
 
   return (
