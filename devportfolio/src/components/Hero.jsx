@@ -11,7 +11,7 @@ export default function Hero() {
 
   return (
     <div className="hero-div">
-      <h1 className="hero-titel">
+      <h1>
         Coding web
         <animated.span className="titleExperience" style={props}>
           {" "}
