@@ -134,8 +134,9 @@ a:hover {
 }
 
 .aboutMeTitel {
-  font-size: 40px;
+  font-size: 60px;
   font-family: "Spline Sans Mono", monospace;
+  margin: 0 0 10px 0;
 }
 
 .leftSide {
