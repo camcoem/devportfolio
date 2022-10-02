@@ -50,6 +50,7 @@ a {
   font-size: 18px;
   opacity: 0.75;
 }
+
 a:hover {
   opacity: 1;
 }
@@ -134,7 +135,7 @@ a:hover {
 }
 
 .aboutMeTitel {
-  font-size: 60px;
+  font-size: 4em;
   font-family: "Spline Sans Mono", monospace;
   margin: 0 0 10px 0;
 }
@@ -147,6 +148,8 @@ a:hover {
   border-radius: 10px;
   width: 50%;
   height: 40rem;
+  margin: 0 3.5em 0 2.5em;
+  padding: 50px;
 }
 
 .rightSide {
@@ -156,4 +159,5 @@ a:hover {
   -webkit-backdrop-filter: blur(18px);
   border-radius: 10px;
   width: 50%;
+  margin: 0 3.5em 0 2.5em;
 }
