@@ -36,7 +36,11 @@ function App() {
           <Projects />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3} speed={2}>
+        <ParallaxLayer
+          offset={3}
+          speed={2}
+          style={{ backgroundColor: "#A58CAE" }}
+        >
           <Contact />
         </ParallaxLayer>
       </Parallax>
