@@ -19,18 +19,18 @@ export default function AboutMe() {
       <div className="aboutMeDiv">
         <div className="leftSide">
           <h3 className="title">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            quod, sequi obcaecati ab, praesentium facilis illo minima nihil
-            veritatis voluptate temporibus exercitationem corporis distinctio
-            laboriosam earum voluptas animi pariatur vero quam voluptatem
-            delectus est quas vel mollitia? Molestiae error accusantium sint
-            mollitia quisquam debitis minus deserunt, laboriosam sit! Ullam
-            perspiciatis suscipit optio sapiente, incidunt ad a non, reiciendis
-            autem maxime dolorem similique eius atque ratione et consectetur,
-            officia error eaque rerum in ut. Dolorem aspernatur consequatur, hic
-            quis nam, maxime amet harum, esse facere blanditiis recusandae odit
-            doloribus voluptatem beatae quaerat sit corporis provident iure
-            totam minus fuga laborum neque?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo esse
+            neque totam labore quasi ipsam, modi explicabo similique vel nobis
+            tempore reprehenderit quam odio veritatis numquam deserunt eum sit
+            inventore, accusantium, error tempora magni dolore quis! Quos
+            nesciunt quam impedit architecto blanditiis libero modi vero, autem
+            recusandae tempora veritatis eaque excepturi, voluptatibus illo
+            saepe. Debitis fugiat porro velit. Commodi voluptatibus fugit
+            reiciendis voluptatum at. Harum maxime quibusdam inventore, ducimus
+            saepe soluta ex velit eveniet eaque nostrum laborum architecto
+            quaerat tempora. Asperiores voluptates impedit, unde esse deleniti a
+            eaque laborum velit, odio repellendus consequuntur incidunt qui eos
+            temporibus recusandae perspiciatis veritatis.
           </h3>
         </div>
         <div className="rightSide"></div>
