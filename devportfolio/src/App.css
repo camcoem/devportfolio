@@ -153,11 +153,11 @@ i {
   color: whitesmoke;
 }
 .leftSide {
-  background: rgba(255, 255, 255, 0.1);
+  /* background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
-  border-radius: 30px;
+  border-radius: 30px; */
   width: 50%;
   height: 40rem;
   margin: 0 3.5em 0 5em;
@@ -165,17 +165,17 @@ i {
 }
 
 .rightSide {
-  /* background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
-  border-radius: 10px; */
+  border-radius: 30px;
   width: 50%;
   margin: 0 5em 0 2.5em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  row-gap: 90px;
+  row-gap: 70px;
   align-items: center;
   justify-items: center;
 }

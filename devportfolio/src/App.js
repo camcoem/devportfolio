@@ -20,11 +20,21 @@ import Context from "./context/Context";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { config } from "react-spring";
 
+//React
+import { useRef } from "react";
+
 function App() {
+  const ref = useRef();
+
   return (
     <div className="app">
-      <Parallax pages={4}>
-        <ParallaxLayer speed={2.5} style={config.wobbly}>
+      <Parallax pages={4} ref={ref}>
+        <ParallaxLayer
+          speed={2.5}
+          style={config.wobbly}
+          factor={0.5}
+          onClick={() => ref.current.scrollTo(4)}
+        >
           <Header />
           <Hero />
         </ParallaxLayer>
