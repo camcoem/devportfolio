@@ -160,7 +160,7 @@ i {
   border-radius: 30px;
   width: 50%;
   height: 40rem;
-  margin: 0 3.5em 0 2.5em;
+  margin: 0 3.5em 0 5em;
   padding: 50px;
 }
 
@@ -171,8 +171,11 @@ i {
   -webkit-backdrop-filter: blur(18px);
   border-radius: 10px; */
   width: 50%;
-  margin: 0 3.5em 0 2.5em;
+  margin: 0 5em 0 2.5em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
+  row-gap: 90px;
+  align-items: center;
+  justify-items: center;
 }
