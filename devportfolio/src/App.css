@@ -172,4 +172,7 @@ i {
   border-radius: 10px; */
   width: 50%;
   margin: 0 3.5em 0 2.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
