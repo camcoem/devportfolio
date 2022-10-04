@@ -3,12 +3,9 @@ import { useSpring, animated } from "react-spring";
 
 export default function AboutMe() {
   const aboutMeStyle = useSpring({
-    config: { delay: 20000, duration: 3000 },
-    from: { opacity: 0, right: "-500" },
-    to: {
-      opacity: 1,
-      right: "300",
-    },
+    config: { delay: 20000, duration: 5000 },
+    from: { opacity: 0 },
+    to: { opacity: 1 },
   });
 
   return (
