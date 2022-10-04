@@ -23,22 +23,22 @@ function App() {
   return (
     <div className="app">
       <Parallax pages={4}>
-        <ParallaxLayer speed={1}>
+        <ParallaxLayer speed={2.5}>
           <Header />
           <Hero />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1} speed={0.8}>
+        <ParallaxLayer offset={1} speed={2}>
           <AboutMe />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2} speed={0.5}>
+        <ParallaxLayer offset={2} speed={2.5}>
           <Projects />
         </ParallaxLayer>
 
         <ParallaxLayer
           offset={3}
-          speed={3}
+          speed={4}
           style={{ backgroundColor: "#A58CAE" }}
         >
           <Contact />
