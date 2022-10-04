@@ -1,5 +1,6 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
+// import { useState, useEffect, setTimeout, onRest } from "react";
 
 export default function Hero() {
   const props = useSpring({
