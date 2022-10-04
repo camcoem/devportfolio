@@ -18,21 +18,22 @@ import Context from "./context/Context";
 
 //React Spring for animations
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { config } from "react-spring";
 
 function App() {
   return (
     <div className="app">
       <Parallax pages={4}>
-        <ParallaxLayer speed={2.5}>
+        <ParallaxLayer speed={2.5} style={config.wobbly}>
           <Header />
           <Hero />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1} speed={2}>
+        <ParallaxLayer offset={1} speed={2} style={config.wobbly}>
           <AboutMe />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2} speed={2.5}>
+        <ParallaxLayer offset={2} speed={2.5} style={config.wobbly}>
           <Projects />
         </ParallaxLayer>
 
