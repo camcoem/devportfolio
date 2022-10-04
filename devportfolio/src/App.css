@@ -151,6 +151,11 @@ a:hover {
 i {
   font-size: 5em;
   color: whitesmoke;
+  transition: transform 0.03s;
+}
+
+i:hover {
+  transform: scale(1.3);
 }
 .leftSide {
   /* background: rgba(255, 255, 255, 0.1);
