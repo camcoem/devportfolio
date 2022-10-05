@@ -151,7 +151,7 @@ a:hover {
 i {
   font-size: 5em;
   color: whitesmoke;
-  transition: transform 0.03s;
+  transition: transform 0.01s;
 }
 
 i:hover {
@@ -180,7 +180,7 @@ i:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  row-gap: 70px;
+  row-gap: 10px;
   align-items: center;
   justify-items: center;
 }
