@@ -31,49 +31,28 @@ export default function AboutMe() {
           </h3>
         </div>
         <div className="rightSide">
-          <i
-            class="devicon-javascript-plain hovertext"
-            data-hover="JavaScript"
-          ></i>
-          <i class="devicon-html5-plain hovertext" data-hover="HTML5"></i>
-          <i class="devicon-css3-plain hovertext" data-hover="CSS"></i>
-          <i class="devicon-react-original hovertext" data-hover="React"></i>
+          <i class="devicon-javascript-plain" data-hover="JavaScript"></i>
+          <i class="devicon-html5-plain" data-hover="HTML5"></i>
+          <i class="devicon-css3-plain" data-hover="CSS"></i>
+          <i class="devicon-react-original" data-hover="React"></i>
 
-          <i class="devicon-python-plain hovertext" data-hover="Pythob"></i>
-          <i
-            class="devicon-npm-original-wordmark hovertext"
-            data-hover="npm"
-          ></i>
-          <i
-            class="devicon-nodejs-plain-wordmark hovertext"
-            data-hover="NodeJS"
-          ></i>
-          <i
-            class="devicon-express-original-wordmark hovertext"
-            data-hover="express"
-          ></i>
+          <i class="devicon-python-plain" data-hover="Pythob"></i>
+          <i class="devicon-npm-original-wordmark" data-hover="npm"></i>
+          <i class="devicon-nodejs-plain-wordmark" data-hover="NodeJS"></i>
+          <i class="devicon-express-original-wordmark" data-hover="express"></i>
 
-          <i
-            class="devicon-github-original-wordmark hovertext"
-            data-hover="GitHub"
-          ></i>
-          <i class="devicon-git-plain hovertext" data-hover="git"></i>
-          <i
-            class="devicon-vscode-plain hovertext"
-            data-hover="Visual Studio Code"
-          ></i>
-          <i class="devicon-sass-original hovertext" data-hover="SASS"></i>
+          <i class="devicon-github-original-wordmark" data-hover="GitHub"></i>
+          <i class="devicon-git-plain" data-hover="git"></i>
+          <i class="devicon-vscode-plain" data-hover="Visual Studio Code"></i>
+          <i class="devicon-sass-original" data-hover="SASS"></i>
 
-          <i class="devicon-figma-plain hovertext" data-hover="Figma"></i>
+          <i class="devicon-figma-plain" data-hover="Figma"></i>
           <i
-            class="devicon-tailwindcss-original-wordmark hovertext"
+            class="devicon-tailwindcss-original-wordmark"
             data-hover="Tailwind CSS"
           ></i>
-          <i
-            class="devicon-bootstrap-plain hovertext"
-            data-hover="Bootstrap"
-          ></i>
-          <i class="devicon-firebase-plain hovertext" data-hover="Firebase"></i>
+          <i class="devicon-bootstrap-plain" data-hover="Bootstrap"></i>
+          <i class="devicon-firebase-plain" data-hover="Firebase"></i>
         </div>
       </div>
     </>
