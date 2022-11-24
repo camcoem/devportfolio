@@ -8,7 +8,7 @@ export default function Contact() {
         <form>
           <label>
             Name
-            <input type="text" name="name" />
+            <input type="text" name="user_name" />
           </label>
           <label>
             Email
