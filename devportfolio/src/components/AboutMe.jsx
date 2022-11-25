@@ -31,28 +31,81 @@ export default function AboutMe() {
           </h3>
         </div>
         <div className="rightSide">
-          <i class="devicon-javascript-plain" data-hover="JavaScript"></i>
-          <i class="devicon-html5-plain" data-hover="HTML5"></i>
-          <i class="devicon-css3-plain" data-hover="CSS"></i>
-          <i class="devicon-react-original" data-hover="React"></i>
+          <i
+            class="devicon-javascript-plain"
+            id="aboutMeIcon"
+            data-hover="JavaScript"
+          ></i>
+          <i
+            class="devicon-html5-plain"
+            id="aboutMeIcon"
+            data-hover="HTML5"
+          ></i>
+          <i class="devicon-css3-plain" id="aboutMeIcon" data-hover="CSS"></i>
+          <i
+            class="devicon-react-original"
+            id="aboutMeIcon"
+            data-hover="React"
+          ></i>
 
-          <i class="devicon-python-plain" data-hover="Pythob"></i>
-          <i class="devicon-npm-original-wordmark" data-hover="npm"></i>
-          <i class="devicon-nodejs-plain-wordmark" data-hover="NodeJS"></i>
-          <i class="devicon-express-original-wordmark" data-hover="express"></i>
+          <i
+            class="devicon-python-plain"
+            id="aboutMeIcon"
+            data-hover="Pythob"
+          ></i>
+          <i
+            class="devicon-npm-original-wordmark"
+            id="aboutMeIcon"
+            data-hover="npm"
+          ></i>
+          <i
+            class="devicon-nodejs-plain-wordmark"
+            id="aboutMeIcon"
+            data-hover="NodeJS"
+          ></i>
+          <i
+            class="devicon-express-original-wordmark"
+            id="aboutMeIcon"
+            data-hover="express"
+          ></i>
 
-          <i class="devicon-github-original-wordmark" data-hover="GitHub"></i>
-          <i class="devicon-git-plain" data-hover="git"></i>
-          <i class="devicon-vscode-plain" data-hover="Visual Studio Code"></i>
-          <i class="devicon-sass-original" data-hover="SASS"></i>
+          <i
+            class="devicon-github-original-wordmark"
+            id="aboutMeIcon"
+            data-hover="GitHub"
+          ></i>
+          <i class="devicon-git-plain" id="aboutMeIcon" data-hover="git"></i>
+          <i
+            class="devicon-vscode-plain"
+            id="aboutMeIcon"
+            data-hover="Visual Studio Code"
+          ></i>
+          <i
+            class="devicon-sass-original"
+            id="aboutMeIcon"
+            data-hover="SASS"
+          ></i>
 
-          <i class="devicon-figma-plain" data-hover="Figma"></i>
+          <i
+            class="devicon-figma-plain"
+            id="aboutMeIcon"
+            data-hover="Figma"
+          ></i>
           <i
             class="devicon-tailwindcss-original-wordmark"
+            id="aboutMeIcon"
             data-hover="Tailwind CSS"
           ></i>
-          <i class="devicon-bootstrap-plain" data-hover="Bootstrap"></i>
-          <i class="devicon-firebase-plain" data-hover="Firebase"></i>
+          <i
+            class="devicon-bootstrap-plain"
+            id="aboutMeIcon"
+            data-hover="Bootstrap"
+          ></i>
+          <i
+            class="devicon-firebase-plain"
+            id="aboutMeIcon"
+            data-hover="Firebase"
+          ></i>
         </div>
       </div>
     </>
