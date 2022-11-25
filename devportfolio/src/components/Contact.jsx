@@ -3,7 +3,26 @@ import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const form = useRef();
-  const sendEmail = () => {};
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_dhcmd7d",
+        "template_0s3hp3f",
+        form.current,
+        "loYpwWE1nbFt2ZmGe"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
 
   return (
     <section>
