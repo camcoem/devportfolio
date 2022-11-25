@@ -50,7 +50,7 @@ function App() {
         <ParallaxLayer
           offset={3}
           speed={4}
-          style={{ backgroundColor: "#A58CAE" }}
+          // style={{ backgroundColor: "#A58CAE" }}
         >
           <Contact />
         </ParallaxLayer>
