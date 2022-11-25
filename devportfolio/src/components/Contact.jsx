@@ -59,6 +59,11 @@ export default function Contact() {
             <button type="submit">Send Message</button>
           </form>
         </div>
+        <div className="footer">
+          <i className="devicon-github-original" id="githubFooter"></i>
+
+          <i className="devicon-linkedin-plain" id="linkedinFooter"></i>
+        </div>
       </div>
     </section>
   );
