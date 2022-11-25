@@ -25,34 +25,40 @@ export default function Contact() {
   };
 
   return (
-    <section className="contact-me-container">
-      <h2 className="contact-me"> Contact me</h2>
-      <div className="container-contact">
-        <form ref={form} onSubmit={sendEmail}>
-          <label>
-            Name
-            <input type="text" name="user_name" />
-          </label>
-          <label>
-            Email
-            <input
-              type="email"
-              name="user_email"
-              placeholder="your@email.com"
+    <section>
+      <div>
+        <h2 className="contactMe"> Contact me</h2>
+        <div className="contactMeContainer">
+          <form ref={form} onSubmit={sendEmail} className="containerContact">
+            <label>
+              Name
+              <br />
+              <input type="text" name="user_name" />
+            </label>
+            <label>
+              Email
+              <br />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="your@email.com"
+              />
+            </label>
+            <label>
+              Subject
+              <br />
+              <input type="text" name="subject" placeholder="Email subject" />
+            </label>
+            <br />
+            <textarea
+              name="message"
+              placeholder="Your message"
+              cols={30}
+              rows={10}
             />
-          </label>
-          <label>
-            Subject
-            <input type="text" name="subject" placeholder="Email subject" />
-          </label>
-          <textarea
-            name="message"
-            placeholder="Your message"
-            cols={30}
-            rows={10}
-          />
-          <button type="submit">Send Message</button>
-        </form>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
       </div>
     </section>
   );
