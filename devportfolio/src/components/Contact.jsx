@@ -60,9 +60,12 @@ export default function Contact() {
           </form>
         </div>
         <div className="footer">
-          <i className="devicon-github-original" id="githubFooter"></i>
-
-          <i className="devicon-linkedin-plain" id="linkedinFooter"></i>
+          <a href="https://github.com/camcoem">
+            <i className="devicon-github-original" id="iconFooter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/camila-coello-merino/">
+            <i className="devicon-linkedin-plain" id="iconFooter"></i>
+          </a>
         </div>
       </div>
     </section>
