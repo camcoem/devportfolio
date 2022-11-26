@@ -206,9 +206,11 @@ a:hover {
   text-shadow: 20px 20px 10px rgba(61, 60, 60, 0.5);
 }
 
+/* Footer Component */
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 #iconFooter {
