@@ -12,6 +12,7 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Cursor from "./components/Cursor";
+import Footer from "./components/Footer";
 
 // Context
 import Context from "./context/Context";
@@ -53,6 +54,7 @@ function App() {
           // style={{ backgroundColor: "#A58CAE" }}
         >
           <Contact />
+          <Footer />
         </ParallaxLayer>
       </Parallax>
     </div>
