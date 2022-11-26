@@ -196,12 +196,18 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   font-family: "Spline Sans Mono", monospace;
-  margin: 13% 0 15% 0;
+  margin: 10% 30% 0 30%;
+  padding: 3em 1em 3em 1em;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 30px;
 }
 
 .contactMe {
   font-size: 3em;
-  margin: 0 0 30px 10px;
+  margin: 0 0 20px 10px;
   transition: transform 0.8s;
   text-shadow: 20px 20px 10px rgba(61, 60, 60, 0.5);
 }
@@ -211,9 +217,14 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 5%;
+  margin: 55px auto 30px;
 }
 
 #iconFooter {
+  width: 10px;
+  height: 10px;
+  font-size: 35px;
 }
 
 /* Retro styled cards for the display of the project section  */
