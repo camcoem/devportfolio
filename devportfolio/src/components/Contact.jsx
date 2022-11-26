@@ -63,8 +63,15 @@ export default function Contact() {
           <a href="https://github.com/camcoem">
             <i className="devicon-github-original" id="iconFooter"></i>
           </a>
-          <a href="https://www.linkedin.com/in/camila-coello-merino/">
-            <i className="devicon-linkedin-plain" id="iconFooter"></i>
+          <a
+            href="https://www.linkedin.com/in/camila-coello-merino/"
+            target="_blank"
+          >
+            <i
+              className="devicon-linkedin-plain"
+              id="iconFooter"
+              target="_blank"
+            ></i>
           </a>
         </div>
       </div>
