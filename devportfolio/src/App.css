@@ -196,6 +196,7 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   font-family: "Spline Sans Mono", monospace;
+  margin: 13% 0 15% 0;
 }
 
 .contactMe {
@@ -208,5 +209,7 @@ a:hover {
 .footer {
   display: flex;
   flex-direction: row;
-  background-color: #111;
+}
+
+#iconFooter {
 }
