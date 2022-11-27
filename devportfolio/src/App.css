@@ -57,6 +57,7 @@ a {
   color: #414670;
   font-size: 18px;
   opacity: 0.75;
+  cursor: pointer;
 }
 
 a:hover {
@@ -197,12 +198,13 @@ a:hover {
   align-items: center;
   font-family: "Spline Sans Mono", monospace;
   margin: 30px 30% 0 30%;
-  padding: 3em 1em 3em 1em;
+  padding: 2em 1em 2em 1em;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
   border-radius: 30px;
+  border: 2px solid rgba(31, 38, 135, 0.37);
 }
 
 .contactMe {
@@ -210,7 +212,31 @@ a:hover {
   margin: 0 0 20px 10px;
   font-family: "Spline Sans Mono", monospace;
   transition: transform 0.8s;
-  text-shadow: 20px 20px 10px rgba(61, 60, 60, 0.5);
+  text-shadow: 20px 20px 10px rgba(14, 19, 93, 0.37);
+}
+
+.contactInput {
+  margin: 0 0 8px 0;
+  background: none;
+  border: none;
+}
+
+.sendBtn {
+  margin-top: 15px;
+  border: 2px solid white;
+  background: none;
+  /* background-color: rgba(20, 24, 91, 0.37); */
+  /* color: rgba(20, 24, 91, 0.37); */
+  color: white;
+  font-family: "Spline Sans Mono", monospace;
+  border-radius: 30px;
+  padding: 13px;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.sendBtn:hover {
 }
 
 /* Footer Component */
@@ -219,7 +245,7 @@ a:hover {
   flex-direction: row;
   justify-content: center;
   gap: 5%;
-  margin: 33px auto 0 auto;
+  margin: 50px auto 0 auto;
 }
 
 #iconFooter {

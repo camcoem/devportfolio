@@ -30,12 +30,12 @@ export default function Contact() {
         <h2 className="contactMe"> Contact me</h2>
         <div className="contactMeContainer">
           <form ref={form} onSubmit={sendEmail} className="containerContact">
-            <label>
+            <label className="contactInput">
               Name
               <br />
               <input type="text" name="user_name" />
             </label>
-            <label>
+            <label className="contactInput">
               Email
               <br />
               <input
@@ -44,7 +44,7 @@ export default function Contact() {
                 placeholder="your@email.com"
               />
             </label>
-            <label>
+            <label className="contactInput">
               Subject
               <br />
               <input type="text" name="subject" placeholder="Email subject" />
@@ -56,7 +56,9 @@ export default function Contact() {
               cols={30}
               rows={10}
             />
-            <button type="submit">Send Message</button>
+            <button type="submit" className="sendBtn">
+              Send Message
+            </button>
           </form>
         </div>
       </div>
