@@ -4,8 +4,18 @@ import { emailSchema } from "../validations/EmailValidation";
 
 export default function Contact() {
   const form = useRef();
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
+
+    let formData = {
+      name: e.target[0].value,
+      email: e.target[1].value,
+      subject: e.target[2].value,
+      text: e.target[3].value,
+    };
+
+    const isValid = await emailSchema.isValid(formData);
+    console.log(isValid);
 
     emailjs
       .sendForm(
