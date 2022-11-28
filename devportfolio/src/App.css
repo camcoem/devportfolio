@@ -216,9 +216,19 @@ a:hover {
 }
 
 .contactInput {
-  margin: 0 0 8px 0;
+  margin: 0 0 15px 0;
   background: none;
   border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px white solid;
+}
+
+label {
+  color: white;
+}
+
+textarea {
 }
 
 .sendBtn {
@@ -232,11 +242,13 @@ a:hover {
   border-radius: 30px;
   padding: 13px;
   text-align: center;
-  transition: all 0.5s;
+  transition: all 0.4s;
   cursor: pointer;
 }
 
 .sendBtn:hover {
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 }
 
 /* Footer Component */

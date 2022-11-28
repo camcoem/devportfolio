@@ -30,24 +30,30 @@ export default function Contact() {
         <h2 className="contactMe"> Contact me</h2>
         <div className="contactMeContainer">
           <form ref={form} onSubmit={sendEmail} className="containerContact">
-            <label className="contactInput">
+            <label>
               Name
               <br />
-              <input type="text" name="user_name" />
+              <input type="text" name="user_name" className="contactInput" />
             </label>
-            <label className="contactInput">
+            <label>
               Email
               <br />
               <input
                 type="email"
                 name="user_email"
                 placeholder="your@email.com"
+                className="contactInput"
               />
             </label>
-            <label className="contactInput">
+            <label>
               Subject
               <br />
-              <input type="text" name="subject" placeholder="Email subject" />
+              <input
+                type="text"
+                name="subject"
+                placeholder="Email subject"
+                className="contactInput"
+              />
             </label>
             <br />
             <textarea
