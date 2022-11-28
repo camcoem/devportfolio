@@ -224,8 +224,16 @@ a:hover {
   border-bottom: 2px white solid;
 }
 
+.contactInput:focus {
+  border-bottom: 2px solid #414670;
+}
+
 label {
   color: white;
+}
+
+label:focus-within {
+  color: #414670;
 }
 
 textarea {
@@ -235,6 +243,10 @@ textarea {
   outline: none;
   background: none;
   backdrop-filter: blur(1px);
+}
+
+textarea:focus-within {
+  border: 2px solid #414670;
 }
 
 .sendBtn {
