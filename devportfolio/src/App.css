@@ -204,13 +204,14 @@ a:hover {
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
   border-radius: 30px;
-  border: 2px solid white;
+  border: 3px solid white;
 }
 
 .contactMe {
   font-size: 3em;
   margin: 0 0 20px 10px;
   font-family: "Spline Sans Mono", monospace;
+  color: rgb(64, 9, 79);
   transition: transform 0.8s;
   text-shadow: 20px 20px 10px rgba(14, 19, 93, 0.37);
 }
@@ -246,7 +247,7 @@ textarea {
 }
 
 textarea:focus-within {
-  border: 2px solid #414670;
+  border: 2px solid#414670;
 }
 
 .sendBtn {
