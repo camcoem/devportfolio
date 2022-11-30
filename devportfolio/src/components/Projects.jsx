@@ -4,6 +4,24 @@ export default function Projects() {
   return (
     <div>
       <h2 className="contactMe"> Projects</h2>
+      <div className="project-cards">
+        <div className="card-1">
+          <img src="#" alt="" />
+          <h2>ToDo App</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
+          <div className="readmore">
+            <span className="spanBtn">
+              <a href="#" className="readMoreLink">
+                <button className="btn">Read more</button>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
