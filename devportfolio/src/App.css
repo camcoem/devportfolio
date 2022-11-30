@@ -198,7 +198,7 @@ a:hover {
   /* margin: auto; */
   flex-wrap: wrap;
   flex-direction: row;
-  font-family: "poppins";
+  font-family: "Spline Sans Mono", monospace;
 }
 
 .card-1 {
@@ -210,7 +210,10 @@ a:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   padding: 5rem 2rem 2rem 2rem;
   border-radius: 30px;
-  /*   color:white; */
+  background: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .readmore {
   display: flex;
@@ -227,12 +230,6 @@ a:hover {
   color: black;
 }
 
-.card-1 {
-  background: white;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .card-1:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -245,7 +242,7 @@ a:hover {
   padding: 1rem;
   border-radius: 8px;
   border: none;
-  font-family: "poppins";
+  font-family: "Spline Sans Mono", monospace;
   background: #0c0910;
   color: white;
 }
