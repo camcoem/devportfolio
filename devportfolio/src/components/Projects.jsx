@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Projects() {
-  return <div></div>;
+  return (
+    <div>
+      <h2 className="contactMe"> Projects</h2>
+    </div>
+  );
 }
