@@ -6,7 +6,7 @@ export default function Projects() {
       <h2 className="contactMe"> Projects</h2>
       <div className="project-cards">
         <div className="card-1">
-          <img src="#" alt="" />
+          <div className="imgCard"></div>
           <h2>ToDo App</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting

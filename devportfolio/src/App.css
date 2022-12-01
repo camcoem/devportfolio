@@ -202,19 +202,37 @@ a:hover {
 }
 
 .card-1 {
-  margin: 1rem;
+  margin: 1rem solid white;
   display: grid;
   flex-direction: column;
-  height: 19rem;
+  height: 25rem;
   width: 18rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  padding: 5rem 2rem 2rem 2rem;
+  padding: 3rem 2rem 2rem 2rem;
   border-radius: 30px;
-  background: white;
+  background: rgba(231, 219, 219, 0.327);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.card-1:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  position: relative;
+  transition: all 0.25s ease-in-out 0s;
+}
+
+.imgCard {
+  background: url("./images/TodoingLogo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10rem;
+  border-radius: 10px;
+}
+
 .readmore {
   display: flex;
   justify-content: flex-end;
@@ -230,20 +248,12 @@ a:hover {
   color: black;
 }
 
-.card-1:hover {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  position: relative;
-  transition: all 0.25s ease-in-out 0s;
-}
-
 .btn {
   padding: 1rem;
   border-radius: 8px;
   border: none;
   font-family: "Spline Sans Mono", monospace;
-  background: #0c0910;
+  background: #414670;
   color: white;
 }
 
