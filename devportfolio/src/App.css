@@ -224,8 +224,34 @@ a:hover {
   transition: all 0.25s ease-in-out 0s;
 }
 
-.imgCard {
+.imgCardBlog {
+  background: url("./images/thebarista.dev.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10rem;
+  border-radius: 10px;
+}
+
+.imgCardMeme {
+  background: url("./images/MemeYourself.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10rem;
+  border-radius: 10px;
+}
+
+.imgCardTodo {
   background: url("./images/TodoingLogo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10rem;
+  border-radius: 10px;
+}
+
+.imgCardShop {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

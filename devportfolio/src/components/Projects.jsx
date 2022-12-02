@@ -6,7 +6,7 @@ export default function Projects() {
       <h2 className="contactMe"> Projects</h2>
       <div className="project-cards">
         <div className="cards">
-          <div className="imgCard"></div>
+          <div className="imgCardTodo"></div>
           <h2>ToDo App</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -23,7 +23,7 @@ export default function Projects() {
         </div>
 
         <div className="cards">
-          <div className="imgCard"></div>
+          <div className="imgCardMeme"></div>
           <h2>MemeYourself</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -40,8 +40,8 @@ export default function Projects() {
         </div>
 
         <div className="cards">
-          <div className="imgCard"></div>
-          <h2>The Bean Machine</h2>
+          <div className="imgCardShop"></div>
+          <h2>MI ALMA coffee shop</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -56,7 +56,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="cards">
-          <div className="imgCard"></div>
+          <div className="imgCardBlog"></div>
           <h2>thebarista.dev Blog</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
