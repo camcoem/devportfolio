@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div>
       <h2 className="contactMe"> Projects</h2>
-      <div className="project-cards">
+      <div className="projectCards">
         <div className="cards">
           <div className="imgCardTodo"></div>
           <h2>ToDo App</h2>
