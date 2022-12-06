@@ -7,7 +7,7 @@ export default function Projects() {
       <div className="projectCards">
         <div className="cards">
           <div className="imgCardTodo"></div>
-          <h2>ToDo App</h2>
+          <h2>Todoing</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
