@@ -10,7 +10,7 @@ export default function AboutMe() {
 
   return (
     <>
-      <animated.h1 className="aboutMeTitel" style={aboutMeStyle}>
+      <animated.h1 className="contactMe" style={aboutMeStyle}>
         about me
       </animated.h1>
       <div className="aboutMeDiv">
