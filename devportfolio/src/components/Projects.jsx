@@ -55,6 +55,7 @@ export default function Projects() {
             </span>
           </div>
         </div>
+
         <div className="cards">
           <div className="imgCardBlog"></div>
           <h2>thebarista.dev Blog</h2>
