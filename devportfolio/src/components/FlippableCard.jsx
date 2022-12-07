@@ -1,5 +1,10 @@
 import React from "react";
+import Card from "./Card";
 
 export default function FlippableCard() {
-  return <div></div>;
+  return (
+    <div className="flippableCardContainer">
+      <Card />
+    </div>
+  );
 }
