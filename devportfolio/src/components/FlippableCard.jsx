@@ -6,7 +6,7 @@ export default function FlippableCard() {
   const [showFront, setShowFront] = useState(true);
   return (
     <div className="flippableCardContainer">
-      <Card />
+      <Card name="Todoing" />
     </div>
   );
 }
