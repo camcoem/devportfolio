@@ -288,6 +288,9 @@ a:hover {
 
 .construction {
   background: none;
+  background-image: url(./images/under-construction.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* Contact Component */
