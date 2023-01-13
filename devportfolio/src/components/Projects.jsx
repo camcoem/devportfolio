@@ -15,8 +15,12 @@ export default function Projects() {
           </p>
           <div className="readmore">
             <span className="spanBtn">
-              <a href="#" className="readMoreLink">
-                <button className="btn">Read more</button>
+              <a
+                href="https://github.com/camcoem/todo"
+                target="_blank"
+                className="readMoreLink"
+              >
+                <button className="btn">Github Repo</button>
               </a>
             </span>
           </div>
@@ -32,7 +36,11 @@ export default function Projects() {
           </p>
           <div className="readmore">
             <span className="spanBtn">
-              <a href="#" className="readMoreLink">
+              <a
+                href="https://github.com/camcoem/meme-yourself"
+                target="_blank"
+                className="readMoreLink"
+              >
                 <button className="btn">Github Repo</button>
               </a>
             </span>
@@ -50,7 +58,7 @@ export default function Projects() {
           <div className="readmore">
             <span className="spanBtn">
               <a href="#" className="readMoreLink">
-                <button className="btn">Read more</button>
+                <button className="btn">Github Repo</button>
               </a>
             </span>
           </div>
@@ -67,7 +75,7 @@ export default function Projects() {
           <div className="readmore">
             <span className="spanBtn">
               <a href="#" className="readMoreLink">
-                <button className="btn">Read more</button>
+                <button className="btn">under construction</button>
               </a>
             </span>
           </div>
