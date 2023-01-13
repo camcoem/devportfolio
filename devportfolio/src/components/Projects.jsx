@@ -75,7 +75,7 @@ export default function Projects() {
           <div className="readmore">
             <span className="spanBtn">
               <a href="#" className="readMoreLink">
-                <button className="btn">under construction</button>
+                <button className="btn construction">under construction</button>
               </a>
             </span>
           </div>
