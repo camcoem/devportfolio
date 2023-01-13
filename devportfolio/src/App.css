@@ -286,6 +286,10 @@ a:hover {
   color: white;
 }
 
+.construction {
+  background: none;
+}
+
 /* Contact Component */
 .containerContact {
   display: flex;
