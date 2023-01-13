@@ -33,7 +33,7 @@ export default function Projects() {
           <div className="readmore">
             <span className="spanBtn">
               <a href="#" className="readMoreLink">
-                <button className="btn">Read more</button>
+                <button className="btn">Github Repo</button>
               </a>
             </span>
           </div>
