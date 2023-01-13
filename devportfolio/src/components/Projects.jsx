@@ -57,7 +57,11 @@ export default function Projects() {
           </p>
           <div className="readmore">
             <span className="spanBtn">
-              <a href="#" className="readMoreLink">
+              <a
+                href="https://github.com/camcoem/The-Bean-Machine"
+                target="_blank"
+                className="readMoreLink"
+              >
                 <button className="btn">Github Repo</button>
               </a>
             </span>
