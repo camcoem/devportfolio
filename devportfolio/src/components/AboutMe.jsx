@@ -55,7 +55,7 @@ export default function AboutMe() {
           <i
             className="devicon-python-plain"
             id="aboutMeIcon"
-            data-hover="Pythob"
+            data-hover="Python"
           ></i>
           <i
             className="devicon-npm-original-wordmark"
