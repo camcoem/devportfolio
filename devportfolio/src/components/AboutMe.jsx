@@ -15,6 +15,7 @@ export default function AboutMe() {
       </animated.h1>
       <div className="aboutMeDiv">
         <div className="leftSide">
+          <div className="baristaDevImg" alt="picture of thebarista dev"></div>
           <h3 className="title">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo esse
             neque totam labore quasi ipsam, modi explicabo similique vel nobis
