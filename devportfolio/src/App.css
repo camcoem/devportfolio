@@ -159,12 +159,24 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 30em;
+  /* float: left;
+  width: 1000px;
+  height: 1000px;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle(); */
+  border-radius: 50%;
   height: 250px;
   width: 250px;
   margin: 0 40px 0 10px;
   padding: 6em;
-  /* position: relative; */
+}
+
+.whoIsTitel {
+  font-family: "Spline Sans Mono", monospace;
+  color: rgb(64, 9, 79);
+  font-size: 30px;
+  margin-bottom: 8px;
 }
 
 .rightSide {
