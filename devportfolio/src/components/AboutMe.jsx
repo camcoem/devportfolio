@@ -18,18 +18,19 @@ export default function AboutMe() {
           <div className="baristaDevImg" alt="picture of thebarista dev"></div>
           <h3 className="aboutMetitle">Who is the barista.dev?</h3>
           <p className="aboutMeP">
-            As a Frontend Developer, I am a highly passionate and motivated
-            individual with a background in molecular biology and ofc in coffee
-            making. I have always been fascinated by the intersection of
-            technology and science, and have recently made a career change to
-            pursue my passion for coding and web development.
+            My name is Camila, I am a highly passionate and motivated individual
+            with a background in molecular biology and ofc in coffee making. I
+            have always been fascinated by the intersection of technology and
+            science, and have recently made a career change to pursue my passion
+            for coding and web development.
           </p>
           <p className="aboutMeP">
             Throughout my journey, I have gained experience in a variety of
             frontend technologies including HTML, CSS, JavaScript, and React. I
             am constantly seeking to improve my skills and stay up-to-date with
             the latest developments in the field. I am a quick learner and am
-            always eager to take on new challenges.
+            always eager to take on new challenges. For example I am currently
+            learning: TypeScript, Redux and Nextjs.
           </p>
           <p className="aboutMeP">
             In my previous role as a molecular biologist, I developed strong
