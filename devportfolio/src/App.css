@@ -173,11 +173,16 @@ a:hover {
   border: white solid 2px;
 }
 
-.whoIsTitel {
+.whoIsTitel,
+.whatIdoTitel {
   font-family: "Spline Sans Mono", monospace;
   color: rgb(64, 9, 79);
   font-size: 30px;
   margin-bottom: 8px;
+}
+
+.whatIdoTitel {
+  margin-left: 80px;
 }
 
 .rightSide {
