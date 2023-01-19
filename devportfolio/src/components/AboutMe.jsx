@@ -16,35 +16,38 @@ export default function AboutMe() {
       <div className="aboutMeDiv">
         <div className="leftSide">
           <div className="baristaDevImg" alt="picture of thebarista dev"></div>
-          <h3 className="aboutMetitle">Who is the barista.dev?</h3>
-          <p className="aboutMeP">
-            My name is Camila, I am a highly passionate and motivated individual
-            with a background in molecular biology and ofc in coffee making. I
-            have always been fascinated by the intersection of technology and
-            science, and have recently made a career change to pursue my passion
-            for coding and web development.
-          </p>
-          <p className="aboutMeP">
-            Throughout my journey, I have gained experience in a variety of
-            frontend technologies including HTML, CSS, JavaScript, and React. I
-            am constantly seeking to improve my skills and stay up-to-date with
-            the latest developments in the field. I am a quick learner and am
-            always eager to take on new challenges. For example I am currently
-            learning: TypeScript, Redux and Nextjs.
-          </p>
-          <p className="aboutMeP">
-            In my previous role as a molecular biologist, I developed strong
-            analytical and problem-solving skills, which I now apply to my work
-            as a frontend developer. I am dedicated to producing high-quality,
-            user-friendly websites and web applications that are both visually
-            pleasing and easy to navigate.
-          </p>
-          <p className="aboutMeP">
-            I am excited to continue my journey in the field of web development
-            and am eager to take on new projects and collaborations. I look
-            forward to the opportunity to work with a team of talented
-            developers to create innovative and impactful projects.
-          </p>
+          <div className="aboutMeText">
+            <h3 className="aboutMetitle">Who is the barista.dev?</h3>
+            <p className="aboutMeP">
+              My name is Camila, I am a highly passionate and motivated
+              individual with a background in molecular biology and ofc in
+              coffee making. I have always been fascinated by the intersection
+              of technology and science, and have recently made a career change
+              to pursue my passion for coding and web development.
+            </p>
+            <p className="aboutMeP">
+              Throughout my journey, I have gained experience in a variety of
+              frontend technologies including HTML, CSS, JavaScript, and React.
+              I am constantly seeking to improve my skills and stay up-to-date
+              with the latest developments in the field. I am a quick learner
+              and am always eager to take on new challenges. For example I am
+              currently learning: TypeScript, Redux and Nextjs.
+            </p>
+            <p className="aboutMeP">
+              In my previous role as a molecular biologist, I developed strong
+              analytical and problem-solving skills, which I now apply to my
+              work as a frontend developer. I am dedicated to producing
+              high-quality, user-friendly websites and web applications that are
+              both visually pleasing and easy to navigate.
+            </p>
+            <p className="aboutMeP">
+              I am excited to continue my journey in the field of web
+              development and am eager to take on new projects and
+              collaborations. I look forward to the opportunity to work with a
+              team of talented developers to create innovative and impactful
+              projects.
+            </p>
+          </div>
         </div>
         <div className="rightSide">
           <i
