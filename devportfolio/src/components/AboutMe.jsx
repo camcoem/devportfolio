@@ -17,7 +17,7 @@ export default function AboutMe() {
         <div className="leftSide">
           <div className="baristaDevImg" alt="picture of thebarista dev"></div>
           <div className="aboutMeText">
-            <h3 className="aboutMetitle">Who is the barista.dev?</h3>
+            <h3 className="whoIsTitel">Who is the barista.dev?</h3>
             <p className="aboutMeP">
               My name is Camila, I am a highly passionate and motivated
               individual with a background in molecular biology and ofc in
