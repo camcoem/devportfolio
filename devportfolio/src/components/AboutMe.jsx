@@ -47,6 +47,17 @@ export default function AboutMe() {
               team of talented developers to create innovative and impactful
               projects.
             </p>
+            <div className="footer">
+              <a href="https://github.com/camcoem" target="_blank">
+                <i className="devicon-github-original" id="iconFooter"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/camila-coello-merino/"
+                target="_blank"
+              >
+                <i className="devicon-linkedin-plain" id="iconFooter"></i>
+              </a>
+            </div>
           </div>
         </div>
         <div className="aboutMeStack">
