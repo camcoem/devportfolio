@@ -23,7 +23,7 @@ export default function Projects() {
                 Website
               </a>
               <a
-                href="https://github.com/camcoem/todo"
+                href="https://github.com/juniorjj13/todo"
                 target="_blank"
                 className="readMoreLink"
               >
