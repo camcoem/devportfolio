@@ -44,6 +44,13 @@ export default function Projects() {
           <div className="readmore">
             <span className="spanBtn">
               <a
+                href="https://camcoem.github.io/meme-yourself/"
+                target="_blank"
+                className="readMoreLink websiteLink"
+              >
+                Website
+              </a>
+              <a
                 href="https://github.com/camcoem/meme-yourself"
                 target="_blank"
                 className="readMoreLink"
