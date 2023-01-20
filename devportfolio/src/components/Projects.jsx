@@ -16,6 +16,13 @@ export default function Projects() {
           <div className="readmore">
             <span className="spanBtn">
               <a
+                href="https://juniorjj13.github.io/todo/"
+                target="_blank"
+                className="readMoreLink websiteLink"
+              >
+                Website
+              </a>
+              <a
                 href="https://github.com/camcoem/todo"
                 target="_blank"
                 className="readMoreLink"
