@@ -69,85 +69,77 @@ export default function AboutMe() {
             <i
               className="devicon-javascript-plain"
               id="aboutMeIcon"
-              data-hover="JavaScript"
+              title="JavaScript"
             ></i>
             <i
               className="devicon-html5-plain"
               id="aboutMeIcon"
-              data-hover="HTML5"
+              title="HTML5"
             ></i>
-            <i
-              className="devicon-css3-plain"
-              id="aboutMeIcon"
-              data-hover="CSS"
-            ></i>
+            <i className="devicon-css3-plain" id="aboutMeIcon" title="CSS"></i>
             <i
               className="devicon-react-original"
               id="aboutMeIcon"
-              data-hover="React"
+              title="React"
             ></i>
 
             <i
               className="devicon-python-plain"
               id="aboutMeIcon"
-              data-hover="Python"
+              title="Python"
             ></i>
             <i
               className="devicon-npm-original-wordmark"
               id="aboutMeIcon"
-              data-hover="npm"
+              title="npm"
             ></i>
             <i
               className="devicon-nodejs-plain-wordmark"
               id="aboutMeIcon"
-              data-hover="NodeJS"
+              title="NodeJS"
             ></i>
             <i
               className="devicon-express-original-wordmark"
               id="aboutMeIcon"
-              data-hover="express"
+              title="express"
             ></i>
 
             <i
               className="devicon-github-original-wordmark"
               id="aboutMeIcon"
-              data-hover="GitHub"
+              title="GitHub"
             ></i>
-            <i
-              className="devicon-git-plain"
-              id="aboutMeIcon"
-              data-hover="git"
-            ></i>
+            <i className="devicon-git-plain" id="aboutMeIcon" title="git"></i>
             <i
               className="devicon-vscode-plain"
               id="aboutMeIcon"
-              data-hover="Visual Studio Code"
+              title="Visual Studio Code"
             ></i>
             <i
               className="devicon-sass-original"
               id="aboutMeIcon"
-              data-hover="SASS"
+              title="SASS"
             ></i>
 
             <i
               className="devicon-figma-plain"
               id="aboutMeIcon"
-              data-hover="Figma"
+              title="Figma"
             ></i>
             <i
               className="devicon-tailwindcss-original-wordmark"
               id="aboutMeIcon"
-              data-hover="Tailwind CSS"
+              title="Tailwind CSS"
             ></i>
             <i
               className="devicon-bootstrap-plain"
               id="aboutMeIcon"
-              data-hover="Bootstrap"
+              title="Bootstrap"
             ></i>
             <i
               className="devicon-firebase-plain"
               id="aboutMeIcon"
-              data-hover="Firebase"
+              title="Firebase"
             ></i>
           </div>
         </div>
