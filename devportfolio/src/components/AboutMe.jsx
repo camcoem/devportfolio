@@ -90,12 +90,12 @@ export default function AboutMe() {
               title="npm"
             ></i>
             <i
-              className="devicon-nodejs-plain-wordmark"
+              className="devicon-nodejs-plain"
               id="aboutMeIcon"
               title="NodeJS"
             ></i>
             <i
-              className="devicon-express-original-wordmark"
+              className="devicon-express-original"
               id="aboutMeIcon"
               title="express"
             ></i>
@@ -123,7 +123,7 @@ export default function AboutMe() {
               title="Figma"
             ></i>
             <i
-              className="devicon-tailwindcss-original-wordmark"
+              className="devicon-tailwindcss-plain"
               id="aboutMeIcon"
               title="Tailwind CSS"
             ></i>
