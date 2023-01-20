@@ -61,7 +61,10 @@ export default function AboutMe() {
           </div>
         </div>
         <div className="aboutMeStack">
-          <h3 className="whatIdoTitel">What I can do:</h3>
+          <h3 className="whatIdoTitel">
+            What I can do:
+            <span className="flatWhite"> (besides a mean flat white)</span>
+          </h3>
           <div className="rightSide">
             <i
               className="devicon-javascript-plain"
