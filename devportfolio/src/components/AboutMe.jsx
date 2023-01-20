@@ -143,3 +143,11 @@ export default function AboutMe() {
     </>
   );
 }
+
+// Junior Frontend Developer with a background in molecular biology
+// Highly passionate and motivated individual
+// Experience with HTML, CSS, JavaScript, and React
+// Strong analytical and problem-solving skills developed through previous role as molecular biologist
+// Dedicated to producing high-quality, user-friendly websites and web applications
+// Quick learner and eager to take on new challenges
+// Excited to continue journey in web development and work with a team of talented developers to create innovative and impactful projects.
