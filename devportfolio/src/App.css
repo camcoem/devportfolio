@@ -297,6 +297,10 @@ a:hover {
   color: black;
 }
 
+.websiteLink {
+  margin-right: 1em;
+}
+
 .btn {
   padding: 1rem;
   border-radius: 8px;
